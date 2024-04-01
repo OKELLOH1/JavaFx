@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import food_ordering.NumberTextField?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="food_ordering.customerLoginController">
+   <children>
+      <Label layoutX="25.0" layoutY="27.0" prefHeight="42.0" prefWidth="221.0" text="Sign Up">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>      <Label layoutX="25.0" layoutY="92.0" prefHeight="36.0" prefWidth="275.0" text="Fill out the following information:  (*required)" />
+      <Label layoutX="26.0" layoutY="198.0" prefHeight="36.0" prefWidth="221.0" text="Full Name*" />
+      <TextField fx:id="name" layoutX="24.0" layoutY="234.0" prefHeight="25.0" prefWidth="275.0" />
+      <Label layoutX="26.0" layoutY="259.0" prefHeight="36.0" prefWidth="221.0" text="Address*" />
+      <TextField fx:id="address" layoutX="24.0" layoutY="295.0" prefHeight="25.0" prefWidth="275.0" />
+      <Label layoutX="26.0" layoutY="320.0" prefHeight="36.0" prefWidth="221.0" text="Phone*" />
+      <NumberTextField fx:id="phone" layoutX="24.0" layoutY="356.0" prefHeight="25.0" prefWidth="275.0" />
+      <Label layoutX="26.0" layoutY="381.0" prefHeight="36.0" prefWidth="221.0" text="Email" />
+      <TextField fx:id="email" layoutX="24.0" layoutY="417.0" prefHeight="25.0" prefWidth="275.0" />
+      <Button fx:id="signUpBtn" layoutX="107.0" layoutY="507.0" mnemonicParsing="false" onAction="#customerSignUp" prefHeight="25.0" prefWidth="108.0" text="Sign Up" />
+      <Label fx:id="message" layoutX="24.0" layoutY="159.0" prefHeight="25.0" prefWidth="275.0" />
+   </children>
+</AnchorPane>

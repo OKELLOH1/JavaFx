@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="food_ordering.SignInController">
+   <children>
+      <Label alignment="CENTER" layoutX="35.0" layoutY="36.0" prefHeight="73.0" prefWidth="251.0" text="Admin">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="308.0" prefHeight="34.0" prefWidth="190.0" text="UserName">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userNameField" layoutX="35.0" layoutY="342.0" prefHeight="34.0" prefWidth="251.0" />
+      <Label layoutX="35.0" layoutY="388.0" prefHeight="34.0" prefWidth="190.0" text="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="passwordField" layoutX="35.0" layoutY="422.0" prefHeight="34.0" prefWidth="251.0" />
+      <Button layoutX="106.0" layoutY="504.0" mnemonicParsing="false" onAction="#SignIn" prefHeight="34.0" prefWidth="108.0" text="Sign In" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="food_ordering.AdminHome">
+   <children>
+      <Label layoutX="35.0" layoutY="29.0" prefHeight="31.0" prefWidth="146.0" text="Welcome Admin">
+         <font>
+            <Font name="Papyrus" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="addRestBtn" layoutX="181.0" layoutY="82.0" mnemonicParsing="false" onAction="#showAddRestView" prefHeight="25.0" prefWidth="109.0" text="Add Restaurant" />
+      <BorderPane fx:id="content" layoutX="10.0" layoutY="131.0" prefHeight="435.0" prefWidth="300.0" />
+      <Button layoutX="30.0" layoutY="82.0" mnemonicParsing="false" onAction="#showAdminHome" prefHeight="25.0" prefWidth="50.0" text="Home" />
+   </children>
+</AnchorPane>
